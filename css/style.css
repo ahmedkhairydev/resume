@@ -17,6 +17,7 @@
   }
   .resume-wrapper .resume h4 {
     letter-spacing: 5px;
+    text-transform: uppercase;
   }
   .resume-wrapper .resume hr {
     height: 1.5px;
