@@ -82,6 +82,7 @@ body {
 }
 .resume-wrapper .resume .box .social svg {
   margin-inline-end: 0.5rem;
+  padding-bottom: 0.25rem;
 }
 .resume-wrapper .resume .box .social span:not(.resume-wrapper .resume .box .social span:first-child) {
   margin-top: 0.5rem;
