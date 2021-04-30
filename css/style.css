@@ -3,9 +3,9 @@ body {
 }
 
 .resume-wrapper {
-  width: 1090px;
-  min-width: 1090px;
-  max-width: 1090px;
+  width: 1140px;
+  min-width: 1140px;
+  max-width: 1140px;
   height: 1604px;
   min-height: 1604px;
   max-height: 1604px;
@@ -144,9 +144,6 @@ body {
 }
 .resume-wrapper .resume .resume-header img {
   width: 230px;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
 }
 .resume-wrapper .resume .resume-content .period {
   color: rgba(0, 0, 0, 0.6);
