@@ -129,12 +129,12 @@ body {
   letter-spacing: 20px;
   line-height: 0.9;
 }
-.resume-wrapper .resume .resume-header .info .position {
+.resume-wrapper .resume .resume-header .info .job-title {
   display: flex;
   align-items: center;
   font-size: 1.25rem;
 }
-.resume-wrapper .resume .resume-header .info .position::before {
+.resume-wrapper .resume .resume-header .info .job-title::before {
   content: "";
   position: absolute;
   left: -120px;
@@ -150,6 +150,26 @@ body {
 }
 .resume-wrapper .resume .resume-content ul.font-medium li {
   font-size: 15px;
+}
+
+a.print {
+  color: rgba(0, 0, 0, 0.85);
+  padding-bottom: 0.25rem;
+}
+a.print:hover {
+  text-decoration: none;
+}
+a.print::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 1.5px;
+  background: rgba(0, 0, 0, 0.85);
+  transition: 0.4s ease;
+}
+a.print:hover::before {
+  width: 100%;
 }
 
 /* Scrollbar Styles Start Here*/
@@ -172,7 +192,7 @@ body {
 }
 
 @media print {
-  img {
-    display: none;
+  #downloadAsPDF, img {
+    display: none !important;
   }
 }
