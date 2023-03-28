@@ -170,3 +170,9 @@ body {
   background: rgba(0, 0, 0, 0.85);
   border-radius: 10px;
 }
+
+@media print {
+  img {
+    display: none;
+  }
+}
