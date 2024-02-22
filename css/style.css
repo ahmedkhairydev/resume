@@ -73,8 +73,8 @@ body {
   margin-top: 0.5rem;
 }
 .resume-wrapper .resume .skills ul {
-  height: 326px;
-  max-height: 326px;
+  height: 400px;
+  max-height: 400px;
 }
 .resume-wrapper .resume .skills ul li:not(.resume-wrapper .resume .skills ul li:first-child) {
   margin-top: 0.4rem;
