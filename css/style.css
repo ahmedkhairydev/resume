@@ -16,9 +16,10 @@
   font-family: "Ubuntu Mono", monospace;
 }
 
-.resume-wrapper .resume h4, .resume-wrapper .resume .h4 {
+.resume-wrapper .resume h4,
+.resume-wrapper .resume .h4 {
   color: #000;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -30,7 +31,7 @@
   height: 2px;
   background: rgba(0, 0, 0, 0.85);
   border: none;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .resume-wrapper .resume a {
@@ -80,8 +81,8 @@
 }
 
 .resume-wrapper .resume .skills ul {
-  height: 400px;
-  max-height: 400px;
+  margin: 0;
+  min-height: 400px;
 }
 
 .resume-wrapper .resume .skills ul li:not(.resume-wrapper .resume .skills ul li:first-child) {
@@ -143,8 +144,8 @@
   left: -100px;
 }
 
-.resume-wrapper .resume .resume-header .info .h4 {
-  font-size: 4.5rem;
+.resume-wrapper .resume .resume-header .info .h3 {
+  font-size: 4.1rem;
   letter-spacing: 20px;
   line-height: 0.9;
 }
@@ -152,7 +153,7 @@
 .resume-wrapper .resume .resume-header .info .job-title {
   display: flex;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .resume-wrapper .resume .resume-header .info .job-title::before {
@@ -165,7 +166,7 @@
 }
 
 .resume-wrapper .resume .resume-header img {
-  width: 230px;
+  width: 210px;
 }
 
 .resume-wrapper .resume .resume-content .period {
@@ -226,6 +227,12 @@ a.print:hover::before {
   background: #eae9fa;
 }
 
+dl,
+ol,
+ul {
+  padding-inline-start: 32px;
+}
+
 @media print {
   @page {
     size: A4;
@@ -258,7 +265,7 @@ a.print:hover::before {
   .page-break-initial {
     page-break-inside: initial;
   }
-  
+
   .break-before-page {
     break-before: page;
   }
@@ -272,7 +279,7 @@ a.print:hover::before {
   .position-sticky {
     position: relative !important;
   }
-  
+
   .top-4 {
     top: 0;
   }
